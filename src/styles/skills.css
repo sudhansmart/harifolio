@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.skills-main{
+ 
+    height: 500px;
+    width: 100%;
+}
+.skills{
+    font-family: "Nunito";
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 34px;
+    color: #f77f00;
+}
+.skillsec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+}
+.centerimg{
+    height: 350px;
+    border-radius: 15%;
+}
+.skill-html{
+    position: relative;
+    bottom: 425px;
+    left: 48%;
+    height: 75px;
+    
+}
+.skill-css{
+    position: relative;
+    bottom: 433px;
+    left: 51%;
+    height: 75px;
+}
+
+.skill-js{
+    position: relative;
+    bottom: 345px;
+    left: 52%;
+    height: 75px;
+}
+.skill-react{
+    position: relative;
+    bottom: 217px;
+    left: 46%;
+    height: 75px;
+}
+.skill-node{
+    position: relative;
+    bottom: 83px;
+    left: 40%;
+    height: 75px;
+}
+.skill-mongo{
+    position: relative;
+    bottom: -10px;
+    left: 29%;
+    height: 75px;
+}
+.skill-express{
+    position: relative;
+    bottom: -16px;
+    left: 16%;
+    height: 75px;
+}
+.skill-bootstrap{
+    position: relative; 
+    bottom: -10px;
+    left: 1%;
+    height: 75px;
+}
+.skill-figma{
+    position: relative;
+    bottom: 78px;
+    left: -13%;
+    height: 75px;
+}
+.skill-iis{
+    position: relative;
+    bottom: 210px;
+    left: -18%;
+    height: 60px;
+}
+.skill-github{
+    position: relative;
+    bottom: 335px;
+    left: -23%;
+    height: 75px;
+}
+.skill-redux{
+    position: relative;
+    bottom: 427px;    
+    left: -21%;
+    height: 63px;
+}

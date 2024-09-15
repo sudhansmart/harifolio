@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Satisfy&family=Syne:wght@400..800&display=swap');
+
+.navmain{
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 999    ;
+    background: #0000007a;
+    box-shadow: -1px 3px 8px 0 #cecfd35e;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+.navmain.sticky {
+    height: 40px;
+}
+.leftnav{
+    height: 100%;
+    width: 50%;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding-left: 8%;
+}
+.rightnav{
+    height: 100%;
+    width: 50%;
+    float: right;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.rightnav .nav-link{ 
+    font-family: Syne, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    color: whitesmoke;
+    transition: ease-in-out 0.5s;
+}
+.rightnav .nav-link:hover{
+       color: orange;
+       scale: 0.9;
+       border-bottom: 4px solid green;
+}
+.codeicon{
+    font-size: 30px;
+    color: darkcyan;
+}
+.asteriskicon{
+    font-size: 30px;
+    color: tomato;
+}
+

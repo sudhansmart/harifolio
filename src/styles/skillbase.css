@@ -1,0 +1,10 @@
+.skillbase-main{
+    height: 200px;
+    width: 100%;
+    /* background-color: aliceblue; */
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/images/floor.jpeg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    object-position: 100%;
+}
+

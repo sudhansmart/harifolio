@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Satisfy&family=Syne:wght@400..800&display=swap');
+
+.workexperience{
+    height: 100%;
+    width: 100%;
+} 
+
+.workexperience-main{
+    display: flex;
+    padding: 1%;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+.workexperience-cover{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 20px;
+}
+.workexperience-title{
+    font-family: "Nunito";
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.workexperience-duration{
+    font-family: "Nunito";
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.workexperience-company{
+    font-family: "Nunito";
+    font-optical-sizing: auto;  
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    color: #5bccc8;
+}
+
+.workexperience-descriptions{
+    font-family: "Syne";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.workexperience-line{
+    width: 40%;
+    height: 5px;
+    background-color: #ffffff;
+}
+
+.scrollbtnsec{
+   
+    margin: 3% ;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+  }
+
+  .prevsec{
+    text-decoration: underline;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #63ab45;
+}
+.nextsec{
+     text-decoration: underline;
+    text-transform: uppercase;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    color: #63ab45;
+}
+.prevsec:hover,.nextsec:hover{
+    cursor: pointer;
+   color:#fbb03b
+}

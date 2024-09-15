@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Satisfy&family=Syne:wght@400..800&display=swap');
+
+
+.contact-content{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.contact-leftsec{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.contact-rightsec{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-family: "Syne";
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #ffffff;
+    gap: 20px;
+}
+.contact-icon {
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        background-color: #eb4638;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background-color .6s ease-in-out;
+        box-shadow: #72a2bcc4 0 17px 41px -3px;
+    }
+
+    .contact-icon:hover {
+            background-color: #fff;
+            box-shadow: 0 0 #fff;
+            color:#eb4638 ;
+        }
+
+        .mail-link{
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+        .contact-phoneicon{
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+            background-color: #38eb85;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: background-color .6s ease-in-out;
+            box-shadow: #507589c4 0 17px 41px -3px;
+        }
+
+        .contact-phoneicon:hover {
+                background-color: #fff;
+                box-shadow: 0 0 #fff;
+                color:#38eb85;
+            }
+            .contact-linkedinicon{
+                cursor: pointer;
+                width: 40px;
+                height: 40px;
+                background-color: #3862eb;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: background-color .6s ease-in-out;
+                box-shadow: #507589c4 0 17px 41px -3px;
+            }
+    
+            .contact-linkedinicon:hover {
+                    background-color: #fff;
+                    box-shadow: 0 0 #fff;
+                    color:#3862eb;
+                }
+                .contact-githubicon{
+                    cursor: pointer;
+                    width: 40px;
+                    height: 40px;
+                    background-color: grey;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    transition: background-color .6s ease-in-out;
+                    box-shadow: #507589c4 0 17px 41px -3px;
+                }
+        
+                .contact-githubicon:hover {
+                        background-color: #fff;
+                        box-shadow: 0 0 #fff;
+                        color:grey;
+                    }
+                    .contact-pdficon{
+                        cursor: pointer;
+                        width: 40px;
+                        height: 40px;
+                        background-color: #e06d6d;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        transition: background-color .6s ease-in-out;
+                        box-shadow: #507589c4 0 17px 41px -3px;
+                    }
+            
+                    .contact-pdficon:hover {
+                            background-color: #fff;
+                            box-shadow: 0 0 #fff;
+                            color:#e06d6d;
+                        }
+    
+
+                    .contactlinks{
+                        gap: 20px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: start;
+                    }
+                .contactimg{
+                    width: 400px;
+                    height: 400px;
+                    object-fit: cover;
+                    background-repeat: no-repeat;
+                }    

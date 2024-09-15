@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Satisfy&family=Syne:wght@400..800&display=swap');
+
+
+.projects{
+ 
+    height: 100%;
+    width: 100%;
+}
+
+.projects-title{
+    font-family: "Nunito";
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 34px;
+    color: #f77f00;
+}
+.textrow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .textrow img {
+    width:50%;
+    height: 100%;
+    padding: 2%;
+    margin-right: 20px;
+  }
+  
+.textrow.reverse {
+    flex-direction: row-reverse;
+  }
+
+  .project h3{
+    font-family: "Nunito";
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    color: #3dcfb6;
+  }
+
+  .project-content-text{
+    text-indent: 1.5rem;
+    color: #f2f2f2e4;
+  }
+
+  .project-link{
+    text-decoration: none;
+    color: #36f700;
+  }
+
+  .specs h5{
+    font-family: "Syne", sans-serif;
+    color: #d5600d;
+  }
+
+  .specs ul li{
+    color: aquamarine;
+  }
+
+  .tech h5{
+    font-family: "Syne", sans-serif;
+    color: #d5600d;
+  }
+  .tech ul li{
+    color: aquamarine;
+  }
+
+  .project-line{
+    color: #f2f2f2e4;
+    height: 2px;
+  }

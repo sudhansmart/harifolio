@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.aboutmain{
+   
+    height: auto;
+    padding: 2%;
+}
+.about-content{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.about{
+    font-family: "Nunito";
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 34px;
+    color: whitesmoke;
+}
+.about:hover{
+    opacity: 0.5; /* Start invisible */
+    transform: scale(1.2); /* Start scaled down */
+    transition: transform 1.5s ease-out, opacity 1.5s ease-out;
+    color: tomato;
+    
+    
+    
+   
+}
+.aboutimage{
+  
+   
+}
+.about-text{
+    padding: 5%;
+    color: #ce9a70;
+    font-family: "Nunito";
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    text-indent: 5em;
+    
+}
